@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MonEscrow — Silence pays. Objection pauses.</title>
+  <title>MonEscrow: Silence pays. Objection pauses.</title>
   <style>
     :root {
       --bg: #09090b;
@@ -500,7 +500,6 @@
 
       <section class="slide active" data-title="Opening">
         <div class="hero-copy">
-          <p class="eyebrow step shown">Programmable milestone escrow</p>
           <h1 class="step shown">A deadline instead of a chase.</h1>
           <p class="lede step" data-step="1">The client keeps a veto. The freelancer gets a clock. Software never gets the final word.</p>
           <div class="proofline step" data-step="2">
@@ -532,7 +531,7 @@
             <p>Work-first moves the payment risk to the freelancer.</p>
           </article>
         </div>
-        <div class="deadlock step" data-step="3">Generic escrow locks the money—but can still wait forever for a click.</div>
+        <div class="deadlock step" data-step="3">Generic escrow locks the money, but can still wait forever for a click.</div>
         <aside class="notes"><strong>Problem · 0:15–0:35</strong>Direct payment asks the client to trust delivery. Work-first asks the freelancer to trust payment. Generic escrow still leaves a finished milestone waiting on someone’s inbox.</aside>
       </section>
 
@@ -577,7 +576,7 @@
           <img src="three-phone-demo.png" alt="MonEscrow mobile UI across client, shared progress, and freelancer views" />
           <div class="screen-focus step" data-step="1" data-pos="client"><span class="focus-label">Client can object & freeze</span></div>
           <div class="screen-focus step" data-step="2" data-pos="progress"><span class="focus-label">Shared state explains what happens next</span></div>
-          <div class="screen-focus step" data-step="3" data-pos="freelancer"><span class="focus-label">Freelancer sees a deadline—not a promise</span></div>
+          <div class="screen-focus step" data-step="3" data-pos="freelancer"><span class="focus-label">Freelancer sees a deadline, not a promise</span></div>
         </div>
         <aside class="notes"><strong>Product · 1:10–1:40</strong>These are the three live phones. The client sees the veto, the center view carries the shared state, and the freelancer sees when release becomes callable. The dock keeps Progress one thumb away.</aside>
       </section>
@@ -633,7 +632,7 @@
           <img class="close-mark step" data-step="1" src="logo-mark.svg" alt="MonEscrow progress lock" />
           <p class="eyebrow step" data-step="1">Built on Monad testnet</p>
           <h2 class="step" data-step="2"><span class="success">Silence pays.</span><br><span class="warning">Objection pauses.</span></h2>
-          <p class="lede step" data-step="3">A programmable deadline for freelance work—without becoming another marketplace.</p>
+          <p class="lede step" data-step="3">A programmable deadline for freelance work, without becoming another marketplace.</p>
           <p class="contract-line step" data-step="3">Fund · Submit · Challenge · Settle · Withdraw</p>
         </div>
         <aside class="notes"><strong>Close · 2:38–3:00</strong>MonEscrow gives freelancers a deadline instead of a chase, gives clients a veto instead of blind automation, and gives both parties one shared source of truth. Silence should pay. Objection should pause.</aside>
@@ -678,7 +677,7 @@
         });
         count.textContent = `${slideIndex + 1} / ${slides.length}`;
         progress.style.width = `${((slideIndex + (values.length ? stepIndex / (values.length + 1) : 0)) / slides.length) * 100}%`;
-        document.title = `${slideIndex + 1}/${slides.length} · ${active.dataset.title} — MonEscrow`;
+        document.title = `${slideIndex + 1}/${slides.length} · ${active.dataset.title} · MonEscrow`;
       }
 
       function next() {
